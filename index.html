@@ -32,10 +32,22 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bungee+Shade">
   <link rel="stylesheet" type="text/css" href="cayman-upx-min.css">
+
+  <style>
+  .glow {
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from{text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8B00FF, 0 0 40px #8B00FF, 0 0 50px #8B00FF, 0 0 60px #8B00FF, 0 0 70px #8B00FF;}
+    to{text-shadow: 0 0 20px #fff, 0 0 30px #BD00FF, 0 0 40px #BD00FF, 0 0 50px #BD00FF, 0 0 60px #BD00FF, 0 0 70px #BD00FF, 0 0 80px #BD00FF;}
+  }
+  </style>
 </head>
 <body>
 <section class="page-header">
-  <h1 class="project-name"><a href="/" style="text-decoration:none;color:inherit;font-family:Bungee Shade">TuxHub</a></h1>
+  <h1 class="project-name glow"><a href="/" style="text-decoration:none;color:inherit;font-family:Bungee Shade">TuxHub</a></h1>
   <h2 class="project-tagline">Quality Linux Software</h2>
 </section>
 <section class="main-content">
